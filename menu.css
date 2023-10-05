@@ -1,0 +1,651 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#img {
+  height: 39%;
+  width: 10%;
+  position: absolute;
+  top: -10%;
+  padding: 2.2%;
+}
+.one {
+  background-image: linear-gradient(to right bottom, #29202a, #322a33, #3a353c, #434045, #4d4b4e);
+  /* background-color: black; */
+  width: auto;
+  /* height: 5%; */
+  padding: -1%;
+  /* border-radius: 3px; */
+}
+
+.one ul {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+  padding: 2%;
+}
+#men{
+  margin-top: 1%;
+}
+#hom{
+  margin-top: 1%;
+}
+.one #order {
+  color: white;
+  /* border: 3px solid black; */
+  text-align: center;
+  background-color: red;
+  height: 10%;
+  padding: 1%;
+  margin-bottom: 0%;
+  cursor: pointer;
+  width: 11%;
+}
+
+.one #order {
+  transform: scale3d(1.5);
+}
+
+.one li {
+  color: white;
+  list-style: none;
+  margin-top: 1%;
+}
+
+.one a {
+  border: 3px solid black;
+  text-align: center;
+  color: white;
+  border: none;
+  text-decoration: none;
+
+}
+.main_menu{
+  display: flex;
+}
+.menu-left{
+  width: 15%;
+  height: 100vh;
+  /* margin-left: 2%; */
+  /* margin-top: 3%; */
+  border-right: 2px solid black;
+  margin-left: 3%;
+}
+.menu-left .mn {
+  font-size: 1.5rem;
+  width: 65%;
+  margin-right: -14%;
+  cursor: pointer;
+  position: relative;
+  left: 10%;
+  top: 5%;
+}
+
+.menu-left .menu p{
+  margin-top: 20%;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu{
+  /* width: 45%; */
+  margin-right: 20%;
+  margin-top: 50%;
+}
+
+.menu_right{
+  width: 65%;
+  /* background-color: aliceblue; */
+}
+
+.cards1{
+  display: flex;
+  margin-top: 3%;
+  flex-wrap: wrap;
+  position: relative;
+  left: 12%;
+  /* flex-direction: column; */
+  /* padding: 10px; */
+  /* background-color: aqua; */
+}
+.mencards #box4 img{
+  margin-left: 10%;
+}
+.mencards #box5 img{
+  margin-left: 10%;
+}
+
+.cards1 .mencards{
+  width: 20%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  /* background-color: beige; */
+}
+
+.cards1 .mencards img{
+  background-color: black;
+  width: 150px;
+  height: 150px;
+  /* background-color: beige; */
+}
+.cards1 .mencards img:hover{
+  transition: 1s;
+  scale: 110%;
+}
+@media(max-width:1000px){
+.cards1 {
+  display: flex;
+  margin-top: 3%;
+  flex-wrap: wrap;
+  position: relative;
+  left: -2%;
+  right: -1%;
+  /* flex-direction: column; */
+  /* padding: 10px; */
+  /* background-color: aqua; */
+}
+}
+@media(max-width:950px){
+  .cards1 {
+    display: flex;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    position: relative;
+    left: 13%;
+    /* flex-direction: column; */
+    /* padding: 10px; */
+    /* background-color: aqua; */
+}
+  .mencards #box6{
+    margin-left: 10% !important;
+  }
+  .mencards #box3{
+    /* margin-left: 50%; */
+  }
+}
+@media(max-width:900px){
+  .cards1 {
+    display: flex;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    position: relative;
+    left: 15%;
+    /* flex-direction: column; */
+    /* padding: 10px; */
+    /* background-color: aqua; */
+}
+#img{
+  height: 39%;
+width: 10%;
+position: absolute;
+top: -10%;
+left: 5%;
+padding: 1%;
+}
+  .one ul {
+          display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+  margin-left: 13%;
+  }
+  .cards1 .mencards img {
+    background-color: black;
+    width: 141px;
+    height: 150px;
+    /* background-color: beige; */
+}
+}
+@media(max-width:850px){
+  .cards1 {
+    display: flex;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    position: relative;
+    left: 0%;
+    /* flex-direction: column; */
+    /* padding: 10px; */
+    /* background-color: aqua; */
+}
+.cards1 .mencards img {
+  background-color: black;
+  width: 135px;
+  height: 150px;
+  /* background-color: beige; */
+}
+}
+@media(max-width:800px){
+  .cards1 {
+    display: flex;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    position: relative;
+    left: 19% !important;
+    /* flex-direction: column; */
+    /* padding: 10px; */
+    /* background-color: aqua; */
+}
+.cards1 .mencards {
+  width: 24%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  /* background-color: beige; */
+}
+.order {
+  width: 13%;
+  margin-left: 47% !important;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: darkcyan;
+  border-radius: 20px;
+  border: none;
+  margin-top: 15% !important;
+}
+}
+
+@media(max-width:450px){
+  .cards1 {
+    display: flex;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    position: relative;
+    left: 5% !important;
+    right: 5%;
+    /* flex-direction: column; */
+    /* padding: 10px; */
+    /* background-color: aqua; */
+}
+
+
+.cards1 .mencards img {
+  background-color: black;
+  width: 115px !important;
+  height: 115px;
+  /* background-color: beige; */
+}
+.mencards img {
+  background-color: black;
+  width: 111px !important;
+  height: 160px !important;
+  /* background-color: beige; */
+}
+.menu_right {
+  width: 78%;
+  /* background-color: aliceblue; */
+}
+.menu-left {
+  width: 20% !important;
+  height: 100vh !important;
+  /* margin-left: 2%; */
+  /* margin-top: 3%; */
+  border-right: 2px solid black;
+  margin-left: 3%;
+}
+.menu_right {
+  width: 73%;
+  /* background-color: aliceblue; */
+}
+}
+@media(max-width:400px){
+  .cards1 {
+    display: flex;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    position: relative;
+    /* left: 26%; */
+    right: 5% !important;
+    padding-right: 5%;
+    /* flex-direction: column; */
+    /* padding: 10px; */
+    /* background-color: aqua; */
+}
+.menu-left {
+  width: 22% !important;
+  height: 100vh !important;
+  /* margin-left: 2%; */
+  /* margin-top: 3%; */
+  border-right: 2px solid black;
+  margin-left: 3%;
+}
+.menu_right {
+  width: 69%;
+  /* background-color: aliceblue; */
+}
+#img {
+  height: 40%;
+  width: 19%;
+  position: absolute;
+  top: -10%;
+  left: 3%;
+  padding: 1%;
+}
+.one #order {
+  color: white;
+  /* border: 3px solid black; */
+  text-align: center;
+  background-color: red;
+  height: 10%;
+  padding: 1%;
+  margin-bottom: 0%;
+  cursor: pointer;
+  width: 17% !important;
+}
+}
+
+@media(max-width:350px){
+.order {
+  width: 28% !important;
+  margin-left: 75% !important;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: none;
+  margin-top: 35% !important;
+  background-color: darkcyan;
+}
+.cards1 {
+  display: flex;
+  margin-top: 3%;
+  flex-wrap: wrap;
+  position: relative;
+  left: 26%;
+  /* flex-direction: column; */
+  /* padding: 10px; */
+  /* background-color: aqua; */
+  width: 110%;
+  margin-right: -5%;
+}
+
+
+}
+
+@media(max-width:300px){
+  .cards1 .mencards img {
+    background-color: black;
+    width: 100px !important;
+    height: 100px !important;
+    /* background-color: beige; */
+}
+.menu-left .mn {
+  font-size: 1.2rem;
+  width: 1%;
+  margin-right: 50%;
+  cursor: pointer;
+}
+.cards1 {
+  display: flex;
+  margin-top: 3%;
+  flex-wrap: wrap;
+  position: relative;
+  left: 26%;
+  /* flex-direction: column; */
+  /* padding: 10px; */
+  /* background-color: aqua; */
+  width: 131%;
+  margin-left: -16%;
+}
+.menu-left .menu p {
+  margin-top: 20%;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.one #order {
+  color: white;
+  /* border: 3px solid black; */
+  text-align: center;
+  background-color: red;
+  height: 10%;
+  padding: 1%;
+  margin-bottom: 0%;
+  cursor: pointer;
+  width: 20% !important;
+}
+#img {
+  height: 35%;
+  width: 20%;
+  position: absolute;
+  top: -10%;
+  left: 3%;
+  padding: 1%;
+}
+}
+@media(max-width:700px){
+  #img {
+    height: 37%;
+    width: 13%;
+    position: absolute;
+    top: -10%;
+    left: 3%;
+    padding: 1%;
+}
+.order {
+  width: 13%;
+  margin-left: 45%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: darkcyan;
+  border-radius: 20px;
+  border: none;
+  margin-top: 18% !important;
+}
+.cards1 {
+  display: flex;
+  margin-top: 3%;
+  flex-wrap: wrap;
+  position: relative;
+  left: 10% !important;
+  /* flex-direction: column; */
+  /* padding: 10px; */
+  /* background-color: aqua; */
+
+}
+}
+@media(max-width:750px){
+  #img {
+    height: 36%;
+    width: 13%;
+    position: absolute;
+    top: -9%;
+    left: 3%;
+    padding: 1%;
+}
+.order {
+  width: 15%;
+  margin-left: 47% !important;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: none;
+  margin-top: 17%;
+  background-color: darkcyan;
+}
+.one {
+  background-image: linear-gradient(to right bottom, #29202a, #322a33, #3a353c, #434045, #4d4b4e);
+  /* background-color: black; */
+  width: 104%;
+  padding: 2.2%;
+  /* border-radius: 3px; */
+}
+}
+@media(max-width:650px){
+  #img {
+    height: 36%;
+    width: 14%;
+    position: absolute;
+    top: -10%;
+    left: 3%;
+    padding: 1%;
+}
+.one #order {
+  color: white;
+  /* border: 3px solid black; */
+  text-align: center;
+  background-color: red;
+  height: 10%;
+  padding: 1%;
+  margin-bottom: 0%;
+  cursor: pointer;
+  width: 12%;
+}
+.cards1 .mencards {
+  width: 29% !important;
+  margin: 20px;
+  margin-left: 5;
+  display: flex;
+  justify-content: center;
+}
+.cards1 {
+  display: flex;
+  margin-top: 3%;
+  flex-wrap: wrap;
+  position: relative;
+  left: 25% !important;
+  /* flex-direction: column; */
+  /* padding: 10px; */
+  /* background-color: aqua; */
+}
+.one {
+  background-image: linear-gradient(to right bottom, #29202a, #322a33, #3a353c, #434045, #4d4b4e);
+  /* background-color: black; */
+  width: 100%;
+  padding: 2.2%;
+  /* border-radius: 3px; */
+}
+}
+@media(max-width:600px){
+  .one #order {
+    color: white;
+    /* border: 3px solid black; */
+    text-align: center;
+    background-color: red;
+    height: 10%;
+    padding: 1%;
+    margin-bottom: 0%;
+    cursor: pointer;
+    width: 14%;
+}
+.order {
+  width: 15%;
+  margin-left: 40%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: none;
+  margin-top: 21% !important;
+  background-color: darkcyan;
+}
+.cards1 .mencards {
+  width: 24%;
+  /* margin: 29px; */
+  margin-left: 13%;
+  display: flex;
+  justify-content: center;
+  /* background-color: beige; */
+}
+
+.cards1 {
+  display: flex;
+  margin-top: 3%;
+  flex-wrap: wrap;
+  position: relative;
+  left: 10% !important;
+  /* flex-direction: column; */
+  /* padding: 10px; */
+  /* background-color: aqua; */
+}
+}
+@media(max-width:550px){
+  #img {
+    height: 35%;
+    width: 14%;
+    position: absolute;
+    top: -10%;
+    left: 3%;
+    padding: 1%;
+}
+.order {
+  width: 15% !important;
+  margin-left: 40%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: none;
+  margin-top: 22%;
+  background-color: darkcyan;
+}
+}
+@media(max-width:500px){
+  .one {
+    background-image: linear-gradient(to right bottom, #29202a, #322a33, #3a353c, #434045, #4d4b4e);
+    /* background-color: black; */
+    width: 114%;
+    padding: 2.2%;
+    /* border-radius: 3px; */
+}
+.order {
+  width: 18%;
+  margin-left: 46%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: none;
+  margin-top: 22%;
+  background-color: darkcyan;
+}
+.cards1 {
+  display: flex;
+  margin-top: 3%;
+  flex-wrap: wrap;
+  position: relative;
+  left: 15% !important;
+  /* flex-direction: column; */
+  /* padding: 10px; */
+  /* background-color: aqua; */
+}
+}
+
+@media(max-width:300px){
+  .order {
+    width: 28%;
+    margin-left: 82% !important;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    margin-top: 37%;
+    background-color: darkcyan;
+}
+}
+@media(max-width:1050px){
+  .cards1 {
+    display: flex;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    position: relative;
+    left: 26%;
+    /* flex-direction: column; */
+    /* padding: 10px; */
+    /* background-color: aqua; */
+}
+}

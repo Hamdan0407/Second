@@ -1,0 +1,2010 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#img {
+    height: 39%;
+    width: 10%;
+    position: absolute;
+    top: -10%;
+    padding: 1%;
+}
+
+.one {
+    background-image: linear-gradient(to right bottom, #29202a, #322a33, #3a353c, #434045, #4d4b4e);
+    /* background-color: black; */
+    width: auto;
+    padding: 2.2%;
+    /* border-radius: 3px; */
+}
+
+.one ul {
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.one #order {
+    color: white;
+    /* border: 3px solid black; */
+    text-align: center;
+    background-color: red;
+    height: 10%;
+    padding: 1%;
+    margin-bottom: 0%;
+    cursor: pointer;
+    width: 11%;
+}
+
+.one #order {
+    transform: scale3d(1.5);
+}
+
+.one li {
+    color: white;
+    list-style: none;
+    margin-top: 1%;
+}
+
+.one a {
+    border: 3px solid black;
+    text-align: center;
+    color: white;
+    border: none;
+    text-decoration: none;
+
+}
+.second img {
+    width: 100%;
+    height: 50%;
+}
+
+.third {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+}
+
+.third p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.third .cont1 {
+    margin-top: 8%;
+}
+
+.third img {
+    width: 108%;
+    height: 5;
+    height: 88%;
+    padding: 4%;
+}
+
+.third .wel {
+    margin-right: 64%;
+    margin-left: 37%;
+}
+
+.third .let {
+    margin-top: 2%;
+    width: 100%;
+    position: relative;
+    right: 2%;
+}
+
+.third .par {
+    margin-top: 3%;
+    font-size: 2rem;
+    /* width: 89%; */
+    margin-left: 6%;
+}
+
+.fourth {
+    width: 100%;
+    height: 100vh;
+}
+
+.fourth .f1 {
+    display: flex;
+}
+
+.fourth .nor {
+    width: 50px;
+    height: 25px;
+    background-color: #dc0032;
+    margin-top: 1.3%;
+}
+
+.fourth p {
+    margin-left: 2%;
+    font-size: 3rem;
+    margin-bottom: 3%;
+}
+#men{
+    margin-top: 1%;
+}
+#hom{
+    margin-top: 1%;
+}
+
+.menu1 {
+    width: 20%;
+    height: 10%;
+    background-color: aqua;
+}
+
+.cardBox{
+    width:100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;    
+    background-color: aliceblue;
+    padding-left: 5rem;
+    color: white;
+}
+.cardBox .card:hover{
+    scale: 110%;
+    transition: 1s  ease-in-out;
+}
+.cardBox  .back:hover{
+background-color: #236863;
+}
+
+.cardBox .card{
+    width: 25%;
+    height: 30%;
+    background-color: black;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.cardBox .card img{
+    width: 220px;
+    height: 220px;
+    transform: translateY(-50px);
+}
+#card2 img{
+    height: 10rem;
+    margin-top: 32%;
+    width: 10rem;
+}
+#card3 img{
+    height: 10rem;
+    margin-top: 32%;
+    width: 10rem;
+}
+#card4 img{
+    height: 10rem;
+    margin-top: 32%;
+    width: 12rem;
+    margin-left: 5%;
+    transform: rotate(90deg);
+}
+#card5 img{
+    height: 15rem;
+    margin-top: 32%;
+    width: 12rem;
+    margin-left: 5%;
+    margin-bottom: 35%;
+}
+#card6 img{
+    height: 10rem;
+    margin-top: 45%;
+    width: 15rem;
+    margin-left: 5%;
+    margin-bottom: 15%;
+}
+.order{
+    width: 13%;
+    margin-left: 45%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: darkcyan;
+    border-radius: 20px;
+    border: none;
+}
+.order:hover{
+    scale: 110%;
+    transition: 1s ;
+}
+
+.order p{
+    color: #fff;
+    cursor: pointer;
+}
+.mu{
+    display: flex;
+}
+.mu .nu{
+    margin-left: 5%;
+    margin-top: 3%;
+        font-family: 'Montserrat', sans-serif;
+
+}
+.mu .nu span{
+    margin-left: 5%;
+}
+.mu .nu2{
+    margin-left: 40%;
+    margin-bottom: 15%;
+        font-family: 'Montserrat', sans-serif;
+
+}
+.mu .nu2 p{
+    margin-top: 15%;
+}
+.mu .nu p{
+    margin-top: 15%;
+}
+.mu .nu2 span{
+    margin-left: 5%;
+}
+.five .signature img {
+    width: 100%;
+}
+
+.lt {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+ .qw{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.lt p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+.lt .laal {
+    color: orange;
+}
+
+.akhr {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    padding: 40px 0px;
+    border-bottom: red; 
+            margin-left: 0%;
+        padding: 9px;
+}
+
+.akhr .ltn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ltn img {
+    width: 80px;
+    height: 80px;
+}
+
+.ltn p {
+    padding: 10px 0px;
+    font-size: 10px;
+}
+.six{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.six .tst{
+    text-align: center;
+    margin-top: 6%;
+}
+.six  .test{
+    color: black;
+    font-size: 2.5rem;
+}
+.six .rev{
+    font-size: 3.5rem;
+    color: orange;
+}
+.tst1 img{
+    margin-left: 5%;
+    border-radius: 10px;
+    width:37%;
+    height: 0%;
+}
+.tst1{
+    display: flex;
+}
+.tst1 p{
+    width: 33%;
+    height: 90%;
+    font-size: 1.6rem;
+    margin-left: 13%;
+    margin-top: 7%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.name{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 25%;
+    margin-bottom: 15%;
+}
+.loc{
+    text-align: center;
+    margin-left: 59.5%;
+}
+.atr{
+    width: 100%;
+    height: 100vh;
+}
+.foot .foot1{
+    width: 100%;
+    background-color: #236863;
+    display: flex;
+}
+.category{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.foot{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    border-bottom: 3px solid gray;
+}
+.foot .lol{
+    color: gray;
+    padding-top: 7%;
+    margin-left: 11%;
+}
+.lp{
+    color: white;
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-evenly;
+}
+.lp .o1 p{
+    padding-top: 25%;
+}
+.lp .o2 p{
+    padding-top: 20%;
+}
+.lp .o3 p{
+    padding-top: 30%;
+}
+
+@media(max-width:1000px){
+    .cardBox .card img {
+        width: 212px;
+        height: 208px;
+        transform: translateY(-50px);
+        margin-top: 11%;
+    }
+    .qw {
+        font-size: 3rem;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin-top: 5%;
+        margin-left: 4%;
+    }
+    #card2 img {
+        height: 7rem ;
+        margin-top: 38%;
+        width: 8rem;
+    }
+    #card3 img {
+        height: 10rem;
+        margin-top: 43%;
+        width: 10rem;
+    }
+    #card4 img {
+        height: 10rem;
+        margin-top: 38%;
+        width: 12rem;
+        margin-left: 5%;
+        transform: rotate(90deg);
+    }
+    #card6 img {
+        height: 10rem;
+        margin-top: 52%;
+        width: 13rem;
+        margin-left: 5%;
+        margin-bottom: 15%;
+    }
+    }
+@media(max-width:950px){
+    #card3 img{
+            height: 10rem;
+    margin-top: 43%;
+    width: 10rem;
+    }
+    #card2 img {
+        height: 7rem !important;
+        margin-top: 37%;
+        width: 7rem !important;
+    }
+    .cardBox .card img {
+            width: 220px;
+    height: 220px;
+    transform: translateY(-43px);
+    }
+    #card4 img{
+            height: 10rem;
+    margin-top: 41%;
+    width: 12rem;
+    margin-left: 5%;
+    transform: rotate(90deg);
+    }
+    #card6 img {
+        height: 10rem !important;
+        margin-top: 50%;
+        width: 13rem !important;
+        margin-left: 5%;
+        margin-bottom: 9% !important;
+    } 
+}
+@media(max-width:900px){
+    .one ul {
+            display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    margin-left: 13%;
+    }
+    #img{
+            height: 39%;
+    width: 10%;
+    position: absolute;
+    top: -10%;
+    left: 5%;
+    padding: 1%;
+    }
+    .cardBox .card img{
+            width: 220px;
+    height: 254px;
+    margin-top: 7%;
+    transform: translateY(-43px);
+    }
+    #card6 img{
+            height: 10rem;
+    margin-top: 50%;
+    width: 15rem;
+    margin-left: 5%;
+    margin-bottom: 15%;
+    }
+    #card3 img {
+        height: 9rem;
+        margin-top: 46% !important;
+        width: 9rem;
+    }
+}
+@media(max-width:850px){
+    .third .wel {
+    margin-right: 64%;
+    margin-left: 28%;
+}
+.third .par {
+    margin-top: 3%;
+    font-size: 1.5rem;
+    width: 89%;
+    margin-left: 2%;
+}
+#card6 img {
+    height: 9rem;
+    margin-top: 59%;
+    width: 13rem;
+    margin-left: 5%;
+    margin-bottom: 15%;
+}
+#card3 img {
+    height: 10rem;
+    margin-top: 50% !important;
+    width: 10rem;
+}
+#card4 img {
+    height: 10rem;
+    margin-top: 44%;
+    width: 12rem;
+    margin-left: 5%;
+    transform: rotate(90deg);
+}
+}
+@media(max-width:800px){
+    .third .par {
+    margin-top: 2%;
+    font-size: 1.3rem;
+    width: 86%;
+    margin-left: 1%;
+}
+#card4 img {
+    height: 8rem !important;
+    width: 10rem;
+    margin-left: 2%;
+    transform: rotate(90deg);
+    position: relative;
+    top: 16%;
+}
+.cardBox .card img {
+    width: 197px;
+    height: 207px;
+    transform: translateY(-50px);
+    margin-top: 26% !important;
+}
+#card5 img {
+    height: 13rem;
+    margin-top: 32%;
+    width: 10rem;
+    margin-left: 5%;
+    margin-bottom: 26%;
+}
+.cardBox {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    padding-left: 14rem;
+    color: white;
+}
+.lt .qw{
+    font-size: 2rem;
+}
+.order {
+    width: 13%;
+    margin-left: 47% !important;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: darkcyan;
+    border-radius: 20px;
+    border: none;
+    margin-top: 15% !important;
+}
+.qw {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 9%;
+}
+.lt .laal {
+    color: orange;
+    margin-top: 4%;
+    font-size: 2rem;
+}
+.akhr {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    padding: 40px 0px;
+    border-bottom: red;
+    margin-left: 8%;
+}
+#card2 img {
+    height: 7rem;
+    margin-top: 58% !important;
+    width: 8rem;
+}
+#card3 img {
+    height: 6rem !important;
+    margin-top: 48%;
+    width: 7rem !important;
+    position: relative;
+    top: 9%;
+}
+#card6 img {
+    height: 6rem !important;
+    margin-top: 78% !important;
+    width: 13rem !important;
+    margin-left: 5%;
+    margin-bottom: 15%;
+}
+}
+@media(max-width:750px){
+    #img {
+        height: 36%;
+        width: 13%;
+        position: absolute;
+        top: -9%;
+        left: 3%;
+        padding: 1%;
+    }
+.third .cont1 {
+    margin-top: 13%;
+    margin-left: 5%;
+}
+.order {
+    width: 15%;
+    margin-left: 47% !important;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    margin-top: 17%;
+    background-color: darkcyan;
+}
+.tst1 p {
+    width: 38%;
+    height: 90%;
+    font-size: 1.6rem;
+    margin-left: 13%;
+    margin-top: 7%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#card3 img {
+    height: 9rem !important;
+    margin-top: 42% !important;
+    width: 8rem !important;
+}
+.cardBox .card {
+    width: 25%;
+    height: 30%;
+    background-color: black;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13%;
+    overflow: hidden;
+}
+.second img {
+    width: 100%;
+    height: 50%;
+}
+.one {
+    background-image: linear-gradient(to right bottom, #29202a, #322a33, #3a353c, #434045, #4d4b4e);
+    width: 100%;
+    padding: 2.2%;
+}
+.cardBox {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5rem;
+    color: white;
+}
+.third .let {
+    margin-top: 22% !important;
+    width: 100%;
+    position: relative;
+    right: 11%;
+    font-size: 1.5rem;
+}
+.third .wel {
+    margin-right: 64%;
+    margin-left: 7% !important;
+}
+.third .par {
+    margin-top: 18% !important;
+    font-size: 1.2rem;
+    width: 98%;
+    margin-left: -4%;
+}
+.fourth .f1 {
+    display: flex;
+    margin-top: 5%;
+}
+.fourth .nor {
+    width: 50px;
+    height: 25px;
+    background-color: #dc0032;
+    margin-top: 2.3%;
+}
+.qw {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 7%;
+}
+.lt .laal {
+    color: orange;
+    margin-top: 2%;
+}
+.tst1 p {
+    width: 42%;
+    height: 90%;
+    font-size: 1.6rem;
+    margin-left: 8%;
+    margin-top: 7%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#card4 img {
+    height: 10rem;
+    margin-top: 53%;
+    width: 12rem;
+    margin-left: 5%;
+    transform: rotate(90deg);
+}
+#card6 img {
+    height: 10rem;
+    margin-top: 57%;
+    width: 11rem;
+    margin-left: 5%;
+    margin-bottom: 20% !important;
+}
+#card2 img {
+    height: 8rem;
+    margin-top: 48%;
+    width: 14rem;
+    /* transform: scale(1); */
+}
+#card3 img {
+    height: 8rem !important;
+    margin-top: 47%;
+    width: 7rem !important;
+}
+#card5 img {
+    height: 14rem;
+    margin-top: 25%;
+    width: 9rem;
+    margin-left: 5%;
+    margin-bottom: 27%;
+    /* transform: rotate(90deg); */
+}
+.third .let {
+    margin-top: 5%;
+    width: 100%;
+    position: relative;
+    right: 11%;
+    font-size: 1.5rem;
+}
+.third .wel {
+    margin-right: 44% !important;
+    margin-left: -4% !important;
+    font-size: 1.6rem;
+}
+.third .par {
+    margin-top: 2%;
+    font-size: 1.2rem;
+    width: 98%;
+    margin-left: -4%;
+
+}
+.tst1 p {
+    width: 42%;
+    height: 92%;
+    font-size: 1.5rem;
+    margin-left: 8%;
+    margin-top: 7%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.order {
+    width: 15%;
+    margin-left: 40%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    margin-top: 17%;
+    background-color: darkcyan;
+}
+.third .wel {
+    margin-right: 64%;
+    margin-left: -4%;
+}
+  .akhr {
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        padding: 40px 0px;
+        border-bottom: red;
+        margin-left: 0%;
+        flex-direction: row;
+        FLEX-WRAP: wrap;
+        padding: 9px;
+        margin-top: 9%;
+    }
+}
+@media(max-width:700px){
+    .tst1 img {
+        margin-left: 3%;
+        border-radius: 10px;
+        width: 51%;
+        height: 0%;
+        position: relative;
+        top: 82%;
+    }
+    #img {
+        height: 37%;
+        width: 13%;
+        position: absolute;
+        top: -10%;
+        left: 3%;
+        padding: 1%;
+    }
+    .one {
+        background-image: linear-gradient(to right bottom, #29202a, #322a33, #3a353c, #434045, #4d4b4e);
+        width: 100%;
+        padding: 2.2%;
+    }
+    .order {
+        width: 13%;
+        margin-left: 45%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        background-color: darkcyan;
+        border-radius: 20px;
+        border: none;
+        margin-top: 18% !important;
+    }
+    .lt .laal {
+        color: orange;
+        margin-top: 2%;
+        margin-left: 9%;
+    }
+    .akhr {
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        padding: 40px 0px;
+        border-bottom: red;
+        margin-left: 8% !important;
+        flex-direction: row;
+        FLEX-WRAP: wrap;
+        padding: 9px;
+        margin-top: 9%;
+    }
+    .six .rev {
+        font-size: 3.5rem;
+        color: orange;
+        margin-left: 8%;
+    }
+    .six .test {
+        color: black;
+        font-size: 2.5rem;
+        margin-left: 7%;
+    }
+}
+
+@media(max-width:650px){
+    #img {
+        height: 36%;
+        width: 14%;
+        position: absolute;
+        top: -10%;
+        left: 3%;
+        padding: 1%;
+    }
+    .second img {
+        width: 100%;
+        height: 50%;
+    }
+    .one {
+        background-image: linear-gradient(to right bottom, #29202a, #322a33, #3a353c, #434045, #4d4b4e);
+        width: 100%;
+        padding: 2.2%;
+    }
+    .cardBox .card img {
+        width: 160px;
+        height: 228px;
+        margin-top: 10%;
+        transform: translateY(-43px);
+    }
+    #card3 img {
+        height: 8rem !important;
+        margin-top: 50% !important;
+        width: 10rem;
+    }
+    #card4 img {
+        height: 8rem !important;
+        margin-top: 38%;
+        width: 10rem !important;
+        margin-left: 0% !important;
+        transform: rotate(90deg);
+    }
+    #card5 img {
+        height: 14rem;
+        margin-top: 25%;
+        width: 9rem;
+        margin-left: 5%;
+        margin-bottom: 25%;
+    }
+    #card6 img {
+        height: 7rem;
+        margin-top: 66%;
+        width: 9rem;
+        margin-left: 1%;
+        margin-bottom: 13%;
+    }
+    .third .wel {
+        margin-right: 44% !important;
+        margin-left: -4% !important;
+        font-size: 1.6rem;
+    } 
+    
+    .third .cont1 {
+        margin-top: 13%;
+        margin-left: -2%;
+    }
+    .third .let {
+        margin-top: 5%;
+        width: 100%;
+        position: relative;
+        right: 10%;
+        font-size: 1.5rem;
+    }
+    .third .par {
+        margin-top: 2%;
+        font-size: 1.2rem;
+        width: 98%;
+        margin-left: -1%;
+    }
+}
+@media(max-width:600px){
+    .one #order {
+        color: white;
+        text-align: center;
+        background-color: red;
+        height: 10%;
+        padding: 1%;
+        margin-bottom: 0%;
+        cursor: pointer;
+        width: 14%;
+    }
+    .ltn p {
+        padding: 10px 0px;
+        font-size: 15px;
+        margin-left: 19%;
+    }
+    .akhr {
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        padding: 40px 0px;
+        border-bottom: red;
+        margin-left: -18% !important;
+    }
+    .ltn img {
+        width: 73px;
+        height: 83px;
+        margin-left: 19%;
+    }
+    .order {
+        width: 15%;
+        margin-left: 40%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: none;
+        margin-top: 21% !important;
+        background-color: darkcyan;
+    }
+    .third .let {
+        margin-top: 5%;
+        width: 115%;
+        position: relative;
+        right: 20%;
+        font-size: 1.2rem;
+    }
+    .third .wel {
+        margin-right: 64%;
+        margin-left: -4%;
+        font-size: 1.6rem;
+    }
+    .third img {
+        width: 108%;
+        height: 5;
+        height: 83%;
+        padding: 9%;
+        margin-left: -5%;
+    }
+    .third .par {
+        margin-top: 2%;
+        font-size: 1.2rem;
+        width: 98%;
+        margin-left: -10%;
+    }
+    #card3 img {
+        height: 7rem;
+        margin-top: 59%;
+        width: 8rem;
+    }
+    .cardBox .card img {
+        width: 149px;
+        height: 235px;
+        margin-top: 10%;
+        transform: translateY(-43px);
+    }
+    #card2 img {
+        height: 7rem;
+        margin-top: 53%;
+        width: 58rem;
+    }
+    #card4 img {
+        height: 7rem;
+        margin-top: 63%;
+        width: 11rem;
+        margin-left: 1%;
+        transform: rotate(90deg);
+    }
+    .tst1 img {
+        margin-left: 5%;
+        border-radius: 10px;
+        width: 46%;
+    }    
+    
+}
+@media(max-width:550px){
+    #img {
+        height: 35%;
+        width: 14%;
+        position: absolute;
+        top: -10%;
+        left: 3%;
+        padding: 1%;
+    }
+    .cardBox .card img {
+        width: 212px;
+        height: 197px !important;
+        transform: translateY(-50px);
+        margin-top: 11%;
+    }
+    #card3 img {
+        height: 5rem !important;
+        margin-top: 77% !important;
+        width: 10rem !important;
+    }
+    #card2 img {
+        height: 6rem !important;
+        margin-top: 70% !important;
+        width: 7rem !important;
+    }
+    #card6 img {
+        height: 7rem;
+        margin-top: 52%;
+        width: 7rem !important;
+        margin-left: 5%;
+        margin-bottom: -5% !important;
+    }
+    #card5 img {
+        height: 13rem;
+        margin-top: 25%;
+        width: 7rem !important;
+        margin-left: 5%;
+        margin-bottom: 20% !important;
+    }
+    #card4 img {
+        height: 6rem !important;
+        margin-top: 30% !important;
+        width: 29rem !important;
+        margin-left: 3% !important;
+        transform: rotate(90deg) !important;
+    }
+    .order {
+        width: 15% !important;
+        margin-left: 40%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: none;
+        margin-top: 22%;
+        background-color: darkcyan;
+    }
+    .tst1 p {
+        width: 42%;
+        height: 92%;
+        font-size: 1.23rem;
+        margin-left: 8%;
+        margin-top: 7%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .order {
+    width: 15%;
+    margin-left: 40%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    margin-top: 21%;
+    background-color: darkcyan;
+}
+.third .wel {
+    margin-right: 64%;
+    margin-left: -20%;
+    font-size: 1rem;
+}
+.third .let {
+    margin-top: 15%;
+    width: 115%;
+    position: relative;
+    right: 24%;
+    font-size: 1.1rem;
+}
+.third .par {
+    margin-top: 14%;
+    font-size: 1.2rem;
+    width: 98%;
+    margin-left: -14%;
+}
+    .tst1 img {
+        margin-left: 5%;
+        border-radius: 10px;
+        width: 51%;
+    }
+    .ltn p {
+        padding: 14px 0px;
+        font-size: 10px;
+        gap: 5%;
+        margin-left: 19%;
+    }
+    .qw {
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin-top: 7%;
+    }
+    .six .rev {
+        font-size: 3rem;
+        color: orange;
+    }
+}
+@media(max-width:500px){
+    .one {
+        background-image: linear-gradient(to right bottom, #29202a, #322a33, #3a353c, #434045, #4d4b4e);
+        width: 100%;
+        padding: 2.2%;
+    }
+    .third img {
+        width: 108%;
+        height: 5;
+        height: 88%;
+        padding: 19% !important;
+        margin-left: -11% !important;
+    }
+    .third {
+        width: 88%;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+    }
+    .second img {
+        width: 100%;
+        height: 50%;
+    }
+    .akhr {
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        padding: 40px 0px;
+        border-bottom: red;
+        margin-left: 20% !important;
+    }
+    .cardBox .card img {
+        width: 115px;
+        height: 211px;
+        margin-top: 18%;
+        transform: translateY(-43px);
+    }
+    #card2 img {
+        height: 7rem;
+        margin-top: 66%;
+        width: 58rem;
+    }
+    #card3 img {
+        height: 7rem;
+        margin-top: 72%;
+        width: 6rem;
+    }
+    #card4 img {
+        height: 6.2rem;
+        margin-top: 67%;
+        width: 9rem;
+        margin-left: 1%;
+        transform: rotate(90deg);
+}
+#card6 img {
+    height: 6rem;
+    margin-top: 74%;
+    width: 6.9rem;
+    margin-left: 1%;
+    margin-bottom: 3%;
+}
+.order {
+    width: 18% !important;
+    margin-left: 50% !important;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    margin-top: 22% !important;
+    background-color: darkcyan;
+}
+.ltn img {
+    width: 100px;
+    height: 91px;
+    margin-left: 0%;
+}
+.ltn p {
+    padding: 14px 0px;
+    font-size: 14px;
+    gap: 5%;
+    margin-left: -1%;
+}
+
+.third img {
+    width: 100%;
+    height: 5;
+    height: 88%;
+    padding: 11%;
+    margin-left: -5%;
+}
+.third .let {
+    margin-top: 15%;
+    width: 115%;
+    position: relative;
+    right: 39%;
+    font-size: 1.2rem;
+}
+.third .wel {
+    margin-right: 44% !important;
+    margin-left: -28% !important;
+    font-size: 1.3rem;
+}
+.lt .laal {
+    color: orange;
+    margin-top: 2%;
+    margin-left: 13%;
+    font-size: 2.1rem;
+}
+.qw {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 14% !important;
+}
+.cardBox {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aliceblue; */
+    padding-left: 6rem;
+    color: white;
+}
+.order {
+    width: 18%;
+    margin-left: 46%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    margin-top: 22%;
+    background-color: darkcyan;
+}
+.six .test {
+    color: black;
+    font-size: 2.5rem;
+    margin-left: 15%;
+}
+.six .rev {
+    font-size: 3.5rem;
+    color: orange;
+    margin-left: 17%;
+}
+.akhr {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    padding: 40px 0px;
+    border-bottom: red;
+    margin-left: 22%;
+    flex-direction: column;
+}
+.tst1 p {
+    width: 42%;
+    height: 92%;
+    font-size: 1.1rem;
+    margin-left: 8%;
+    margin-top: 7%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tst1 img {
+    margin-left: 5%;
+    border-radius: 10px;
+    width: 56%;
+}
+.third .par {
+    margin-top: 14%;
+    font-size: 1.2rem;
+    width: 98%;
+    margin-left: -23%;
+}
+.cardBox .card {
+    width: 28%;
+    height: 30%;
+    background-color: black;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11%;
+    overflow: hidden;
+}
+.fourth .nor {
+    width: 50px;
+    height: 25px;
+    background-color: #dc0032;
+    margin-top: 3%;
+}
+}
+@media(max-width:450px){
+    .cardBox {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        position: relative;
+        left: -5%;
+    }
+        .akhr {
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            padding: 40px 0px;
+            border-bottom: red;
+            margin-right: 20% !important;
+            padding: 9px;
+            margin-top: 9%;
+        }
+    
+    .third img {
+        width: 100%;
+        height: 5;
+        height: 88%;
+        padding: 20% !important;
+        margin-left: -5%;
+    }
+    .one #order {
+        color: white;
+        text-align: center;
+        background-color: red;
+        height: 10%;
+        padding: 1%;
+        margin-bottom: 0%;
+        cursor: pointer;
+        width: 16%;
+    }
+    .third .par {
+        margin-top: 14%;
+        font-size: 1.2rem;
+        width: 120%;
+        margin-left: -34%;
+    }
+    .second img {
+        width: 100%;
+        height: 50%;
+    }
+    .one {
+        background-image: linear-gradient(to right bottom, #29202a, #322a33, #3a353c, #434045, #4d4b4e);
+        width: 100%;
+        padding: 2.2%;
+    }
+    #img {
+        height: 30%;
+        width: 17%;
+        position: absolute;
+        top: -8%;
+        left: 3%;
+        padding: 1%;
+    }
+    .order {
+        width: 20% !important;
+        margin-left: 45% !important;
+        height: 8vh !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: none;
+        margin-top: 25% !important;
+        background-color: darkcyan;
+    }
+    .qw {
+        font-size: 1.5rem;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin-top: 5%;
+        position: relative !important;
+        right: 4%;
+    }     
+    .lt .laal {
+        color: orange;
+        margin-top: 3%;
+        margin-left: 20% !important;
+        width: 67% !important;
+        font-size: 2.1rem;
+    }
+    .ltn img {
+        width: 100px;
+        height: 91px;
+        margin-left: 9%;
+    }
+    .ltn p {
+        padding: 14px 0px;
+        font-size: 14px;
+        gap: 5%;
+        margin-left: 22%;
+    }
+    .ltn img {
+        width: 100px;
+        height: 91px;
+        margin-left: 22%;
+    }
+    .tst1 p {
+        width: 83% !important;
+        font-size: 1rem;
+        margin-top: 0%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 6%;
+    }
+    .six .rev {
+        font-size: 3.5rem;
+        color: orange;
+        margin-left: 0%;
+        margin-bottom: 9%;
+    }
+.six .test {
+    color: black;
+    font-size: 2.5rem;
+    margin-left: 4%;
+}
+.tst1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+}
+.six {
+    width: 89%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5%;
+}
+}
+@media(max-width:400px){
+    #img {
+        height: 29%;
+        width: 22%;
+        position: absolute;
+        top: -8%;
+        left: 3%;
+        padding: 1%;
+    }
+    .third img {
+        width: 100%;
+        height: 5;
+        height: 93%;
+        padding: 12% !important;
+        margin-left: 11% !important;
+    }
+    .akhr {
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        padding: 40px 0px;
+        border-bottom: red;
+        margin-left: 0%;
+        padding: 9px;
+        margin-top: 9%;
+        position: relative;
+        right: 8%;
+    }
+    #img {
+        height: 24%;
+        width: 16%;
+        position: absolute;
+        top: -6%;
+        left: 3%;
+        padding: 1%;
+    }
+    .one #order {
+        color: white;
+        text-align: center;
+        background-color: red;
+        height: 10%;
+        padding: 1%;
+        margin-bottom: 0%;
+        cursor: pointer;
+        width: 18%;
+    }
+    .tst1 img {
+        margin-left: 13% !important;
+        border-radius: 10px;
+        width: 56%;
+    }
+    .lp{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    .lp .o1 p{
+        padding-top: 2% !important;
+    }
+    .lp .o2 p{
+        padding-top: 2% !important;
+    }
+    .lp .o3 p{
+        padding-top: 2% !important;
+    }
+    .akhr {
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        padding: 40px 0px;
+        border-bottom: red;
+        margin-left: 9%;
+        flex-direction: column;
+    }
+    .third .par {
+     display: none;
+    }
+    .third .let {
+        margin-bottom: 20% !important;
+        width: 100%;
+        position: relative;
+        right: -8%;
+        bottom: 55%;
+        font-size: 1.1rem;
+    }
+    .third .wel {
+        margin-right: -10%;
+        margin-left: -40%;
+        font-size: 1.4rem;
+        position: relative;
+        top: 4%;
+    }
+    .cardBox {
+        width: 102%;
+        height: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 2rem;
+        color: white;
+    }
+    .cardBox .card img {
+        width:200px !important;
+        height: 100px !important;
+        margin-top: 18%;
+        transform: translateY(-43px) !important;
+    }
+    #card2 img {
+        height: 1rem !important;
+        margin-top: 66% !important;
+        width: 80% !important;
+    }
+    #card3 img {
+        height: 7rem;
+        margin-top: 72%;
+        width: 7rem;
+    }
+    #card5 img {
+        height: 14rem;
+        margin-top: 25%;
+        width: 8rem;
+        margin-left: 5%;
+        margin-bottom: 34%;
+    }
+    #card6 img {
+        height: 7rem;
+        margin-top: 74%;
+        width: 7.9rem;
+        margin-left: 1%;
+        margin-bottom: 3%;
+    }
+    .order {
+        width: 24% !important;
+        margin-left: 45% !important;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: none;
+        margin-top: 24% ;
+        background-color: darkcyan;
+    }
+    .qw {
+        font-size: 2.3rem !important;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin-top: 5%;
+        position: relative;
+        left: 1%;
+    }
+    .lt .laal {
+        color: orange;
+        margin-top: 2%;
+        margin-left:21% !important;
+        font-size: 1rem;
+    }
+    .ltn img {
+        width: 100px;
+        height: 91px;
+        margin-left: 52%;
+    }
+    .ltn p {
+        padding: 14px 0px;
+        font-size: 14px;
+        gap: 5%;
+        margin-left: 54%;
+    }
+    .six .test {
+        color: black;
+        font-size: 1.7rem;
+        margin-left: 25%;
+        width: 50%;
+    }
+    .six .rev {
+        font-size: 1.5rem;
+        color: orange;
+        margin-left: 25% !important;
+        margin-bottom: 9%;
+        margin-right: -7%;
+        width: 50%;
+    }
+    
+    
+    .six {
+        width: 89% !important;
+        height: 100vh;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .ltn .SANDWICHES{
+        margin-left: 61%;
+    }
+    .tst1 p {
+        width: 83% !important;
+        font-size: 1rem;
+        margin-top: 10%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: -4%;
+    }
+    .third {
+        width: 88%;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    .third .wel{
+        display: none;
+    }
+    .tst1 {
+        display: flex;
+        flex-direction: column;
+        position: left;
+        position: relative;
+        left: 4%;
+    }
+    .fourth .f1 {
+        display: flex;
+        margin-top: 4%;
+        width: 90%;
+    }
+}
+@media(max-width:350px){
+    .third .wel {
+        margin-right: -20% !important;
+        margin-left: 0% !important;
+        font-size: 1.4rem;
+        margin-bottom: 3% !important;
+        position: relative;
+        top: 4%;
+    }
+    .one {
+    background-image: linear-gradient(to right bottom, #29202a, #322a33, #3a353c, #434045, #4d4b4e);
+    width: 100%;
+    padding: 2.2%;
+}
+    .one #order {
+        color: white;
+        text-align: center;
+        background-color: red;
+        height: 10%;
+        padding: 1%;
+        margin-bottom: 0%;
+        cursor: pointer;
+        width: 19%;
+    }
+    .akhr {
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        padding: 40px 0px;
+        border-bottom: red;
+        margin-left: 2% !important;
+        flex-direction: column;
+    }
+    .third .par {
+        margin-top: 16%;
+        font-size: 20px;
+        width: 120%;
+        margin-left: -2%;
+    }
+    .fourth .nor {
+        width: 50px;
+        height: 25px;
+        background-color: #dc0032;
+        margin-top: 4%;
+    }
+  .cardBox {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}  
+    #card6 img {
+        height: 8rem;
+        margin-top: 74%;
+        width: 6.9rem;
+        margin-left: 1%;
+        margin-bottom: 3%;
+    }
+    .order {
+        width: 28% !important;
+        margin-left: 38% !important;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: none;
+        margin-top: 35% !important;
+        background-color: darkcyan;
+    }
+    .qw {
+        font-size: 2rem !important; 
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin-top: 7%;
+        margin-right: 10% !important;
+    }
+    .lt .laal {
+    color: orange;
+    margin-top: 2%;
+    margin-left: 19% !important;
+    font-size: 1.9rem;
+}
+
+
+    .ltn p {
+        padding: 14px 0px;
+        font-size: 14px;
+        gap: 5%;
+        margin-left: 57%;
+    }
+    .ltn img {
+        width: 100px;
+        height: 91px;
+        margin-left: 51%;
+    }
+   .third .let {
+    margin-top: 27%;
+    width: 100%;
+    position: relative;
+    font-size: 1.1rem;
+}
+    .second img {
+    width: 100%;
+    height: 50%;
+}
+}
+
+@media(max-width:300px){
+    .cardBox .card img {
+        width: 109px;
+        height: 208px;
+        transform: translateY(-50px);
+        margin-top: 11%;
+    }
+    .fourth .nor {
+    width: 50px;
+    height: 25px;
+    background-color: #dc0032;
+    margin-top: 6%;
+}
+
+
+    .foot .lol{
+        color: gray;
+        padding-top: 7%;
+        margin-left: 11%;
+    }
+    .lp{
+        color: white;
+        display: flex;
+        margin-top: 5%;
+        justify-content: space-evenly;
+    }
+    .lp .o1 p{
+        padding-top: 25%;
+    }
+    .lp .o2 p{
+        padding-top: 20%;
+    }
+    .lp .o3 p{
+        padding-top: 30%;
+    }
+    
+    #card2 img {
+        height: 7rem;
+        margin-top: 85% !important;
+        width: 10rem !important;
+    }
+    #card3 img {
+        height: 4rem !important;
+        margin-top: 43%;
+        width: 8rem !important;
+    }
+    .lt .laal {
+        color: orange;
+        margin-top: 10%;
+        margin-left: 20% !important;
+        font-size: 1.5rem;
+        width: 66%;
+    }
+    .akhr {
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        padding: 40px 0px;
+        border-bottom: red;
+        margin-left: 2% !important;
+        flex-direction: column;
+    }
+    .order {
+        width: 28%;
+        margin-left: 45% !important;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: none;
+        margin-top: 3% !important;
+        background-color: darkcyan;
+    }
+    .cardBox {
+        width: 100%;
+        height: 80%;
+        flex-wrap: wrap;
+        color: white;
+        flex-direction: column-reverse;
+        margin-left: -15%;
+        align-content: center;
+    }
+    .six .test {
+        color: black;
+        font-size: 1.5rem;
+        margin-left: 24%;
+    }
+    .six .rev {
+        font-size: 1.5rem;
+        color: orange;
+        margin-left: 45%;
+        margin-bottom: 9%;
+    }
+    .one #order {
+    color: white;
+    text-align: center;
+    background-color: red;
+    height: 10%;
+    padding: 1%;
+    margin-bottom: 0%;
+    cursor: pointer;
+    width: 21%;
+    }
+    #img {
+    height: 22%;
+    width: 17%;
+    position: absolute;
+    top: -6%;
+    left: 1%;
+    padding: 1%;
+}
+.ltn img {
+    width: 100px;
+    height: 81px;
+}
+.qw {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 25% !important;
+}
+.fourth {
+    width: 81%;
+    height: 100vh;
+}
+.third .cont1 {
+    margin-top: 13%;
+}
+
+.fourth p {
+    margin-left: 1%;
+    font-size: 2.5rem;
+    margin-bottom: 1%;
+}
+.cardBox .card {
+    width: 40%;
+    height: 30%;
+    background-color: black;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11%;
+    overflow: hidden;
+}
+}
+
+@media(max-width:1050px){
+    #card6 img {
+        height: 10rem;
+        margin-top: 50%;
+        width: 15rem;
+        margin-left: 5%;
+        margin-bottom: 15%;
+    }
+    #card3 img {
+        height: 9rem;
+        margin-top: 40%;
+        width: 9rem;
+    }
+}
+.footers{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+}
+.footers .toll{
+    position: relative;
+    top: 10%;
+    /* margin-left: 5%; */
+}
+.footer1{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.footers2{
+    margin-top: 5%;
+}
+.footer3{
+    margin-top: 5%;
+}
+.footer1 p{
+    margin-top: 30%;
+}
+.footers2 p{
+    margin-top: 25%;
+}
+.footer3 p{
+    margin-top: 25%;
+}
